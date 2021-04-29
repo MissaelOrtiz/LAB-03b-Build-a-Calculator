@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Best Calculator in the Whole Entire World (honestly)</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <main>
-        <input id="in1" placeholder="Your first number here.."/>
-        <input id="in2" />
-        <button id="addi">+</button>
-        <button id="subt">-</button>
-        <button id="mult">*</button>
-        <button id="divi">/</button>
+        <h1>Techno-Wizard's Awesome Calculator</h1>
+        <div class="inputs">
+            <input id="in1" placeholder="Your first number here.."/>
+            <input id="in2" placeholder="Your second number here.." />
+        </div>
+        <div>
+            <button id="addi" class="button">+</button>
+             <button id="subt" class="button">-</button>
+             <button id="mult" class="button">*</button>
+            <button id="divi" class="button">/</button>
+        </div>
         <span id="results"></span>
     </main>
     <script src="./app.js"></script>

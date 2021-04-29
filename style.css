@@ -1,5 +1,36 @@
 body {
+    display: flex;
+    flex-direction: column;
+    column-count: auto;
+    align-items: center;
     text-align: center;
-    font-family: sans-serif;
-    align-content: center;
+    color: whitesmoke;
+    background-color: dimgray;
+}
+.button {
+    border: none;
+    padding: 15px 25px;
+    display: inline-block;
+    font-size: larger;
+    margin: 20px 10px;
+    font-weight: bolder;
+    color: white;
+}
+#addi {
+    background-color: maroon;
+}
+#subt {
+    background-color: midnightblue;
+}
+#mult {
+    background-color: darkolivegreen;
+}
+#divi {
+    background-color: darkorange;
+}
+#results {
+    font-size: 7rem;
+    font-weight: bolder;
+    border: none;
+    background-color:;
 }
