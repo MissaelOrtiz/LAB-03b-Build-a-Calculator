@@ -5,7 +5,7 @@ body {
     align-items: center;
     text-align: center;
     color: whitesmoke;
-    background-color: dimgray;
+    background-color: rgb(85, 14, 14);
 }
 .button {
     border: none;
@@ -31,6 +31,8 @@ body {
 #results {
     font-size: 7rem;
     font-weight: bolder;
-    border: none;
-    background-color:;
+    border-radius: 10px;
+    background-color: thistle;
+    color: black;
+    padding: 10px;
 }
